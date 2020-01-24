@@ -1,0 +1,16 @@
+name: cover-judger
+channels:
+- defaults
+- conda-forge
+- megthommes
+dependencies:
+- python=3.7.4
+- conda=4.8.1
+- scikit-learn
+- scipy
+- pandas
+- numpy
+- matplotlib
+- pip
+- pip:
+  - streamlit
