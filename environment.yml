@@ -1,4 +1,4 @@
-name: cover-judger
+name: insight
 channels:
 - defaults
 - conda-forge
@@ -6,11 +6,8 @@ channels:
 dependencies:
 - python=3.7.4
 - conda=4.8.1
-- scikit-learn
-- scipy
+- surprise
 - pandas
 - numpy
 - matplotlib
 - pip
-- pip:
-  - streamlit
